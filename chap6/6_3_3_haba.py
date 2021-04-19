@@ -3,7 +3,7 @@ from collections import deque
 N = int(input())
 
 Q = deque()
-Q.append([sy, sx])
+Q.append(0)
 
 while len(Q) > 0:
   i, j = Q.popleft()
